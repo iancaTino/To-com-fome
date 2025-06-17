@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tô com fome</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img class="logo" src="./img/img-to com fome.jpg" alt="Logo" />
+
+                <!-- Botão hamburguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#receitas">Receitas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="carouselFome" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+            data-bs-wrap="true">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center gap-4">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food1.avif" alt="slide-1">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food2.avif" alt="slide-2">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food3.avif" alt="slide-3">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center gap-4">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food4.avif" alt="slide-4">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food5.avif" alt="slide-5">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food6.avif" alt="slide-6">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center gap-4">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food7.avif" alt="slide-7">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food8.jpg" alt="slide-8">
+                        <img class="img-fluid" style="max-width: 45%;" src="./img/food9.avif" alt="slide-9">
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFome" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselFome" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div id="sobre" class="container-sobre">
+            <div class="texto-sobre">
+                <h2 class="linha">Sobre</h2>
+                <p>Aqui no “Tô com fome” a gente acredita que cozinhar pode (e deve!) ser fácil, rápido e delicioso.
+                    Nosso site é feito pra você que quer receitas práticas, sem complicação, mas que têm sabor de comida
+                    feita com amor.</p>
+                <p>Tem receita pra tudo: almoço, jantar, lanche, sobremesa… Seja clássico ou algo diferente pra
+                    surpreender, a gente traz opções que cabem no seu dia a dia — com ingredientes simples e aquele
+                    toque caseiro que todo mundo ama.</p>
+                <p>Além das receitas, você vai encontrar fotos de dar água na boca, dicas espertas pra não errar no
+                    preparo e até sugestões de combinações pra montar pratos completos. Tudo pensado pra deixar sua
+                    cozinha mais feliz e seu apetite satisfeito. Vem com a gente, porque aqui a fome é inspiração!</p>
+            </div>
+            <div class="imagem-sobre">
+                <img src="./img/img-to com fome.jpg" alt="Foto sobre o site">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="receitas">
+        <div id="receitas">
+            <h2 class="linha">Receitas</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="./img/lasanha.avif" alt="Receita-1">
+                    <h2>Lasanha de Frango</h2>
+                    <p>Camadas generosas de massa macia, recheadas com um molho cremoso de frango desfiado, queijo
+                        derretido e um toque de temperos caseiros. Conforto e sabor em cada garfada — perfeito pra
+                        aquele almoço que abraça a alma!</p>
+                </div>
+                <div class="card">
+                    <img src="./img/macarrao.jpg" alt="Receita-2">
+                    <h2>Macarrão à bolonhesa </h2>
+                    <p>Clássico da cozinha italiana, feito com molho de tomate bem temperado e carne moída suculenta.
+                        Perfeito pra aquele almoço de respeito, cheio de sabor e carinho em cada garfada.</p>
+                </div>
+                <div class="card">
+                    <img src="./img/strogonoff.jpg" alt="Receita-3">
+                    <h2>Strogonoff</h2>
+                    <p>Clássico queridinho do Brasil! Feito com cubinhos de carne ou frango, cozidos num molho cremoso
+                        de creme de leite, ketchup e mostarda. Servido com arroz branco e batata palha crocante.
+                        Conforto puro em forma de prato!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contato" class="footer bg-dark text-light py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="footer-info mb-3 mb-md-0">
+                <p>© 2025 Tô com fome — Feito com ❤️ por Ianca Laurentino</p>
+                <p>Receitas práticas e saborosas para matar sua fome de vez!</p>
+            </div>
+            <div class="footer-contato text-center text-md-end">
+                <p>Contato: <a href="mailto:contato@tocomfome.com"
+                        class="text-light text-decoration-none">contato@tocomfome.com</a></p>
+                <p>Tel: (11) 99999-9999</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

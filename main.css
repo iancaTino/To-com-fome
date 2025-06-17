@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f5f5dc;
+    color: #3e2723;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a33f2d;
+    color: #fff;
+    padding: 16px 0;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.5rem;
+    padding: 0.75rem 1rem;
+}
+
+
+.navbar-nav .nav-link {
+    color: #f5f5dc;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#carouselFome {
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    border-radius: 0 0 12px 12px;
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#carouselFome img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.linha {
+    border-bottom: 3px solid #a33f2d;
+    padding-bottom: 8px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.sobre {
+    margin-top: 220px;
+    padding: 20px 70px;
+    color: #a33f2d;
+}
+
+.container-sobre {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.texto-sobre {
+    flex: 1 1 600px;
+    min-width: 300px;
+}
+
+.imagem-sobre {
+    flex: 1 1 300px;
+    min-width: 250px;
+}
+
+.imagem-sobre img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.receitas {
+    margin-top: 20px;
+    padding: 20px 70px;
+    color: #a33f2d;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card {
+    flex: 1 1 300px;
+    max-width: 32%;
+    background-color: #fff8f2;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.footer {
+    font-size: 0.9rem;
+}
+
+.footer-info p {
+    margin: 0;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    .navbar-toggler {
+        display: flex;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .sobre {
+        margin-top: 50px;
+        padding: 20px 70px;
+    }
+
+    .imagem-sobre img {
+        width: 80%;
+    }
+
+    .card {
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 649px) {
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #carouselFome {
+        height: 300px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    #carouselFome img {
+        width: 90%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .receitas {
+        padding: 20px 20px;
+        margin-top: 40px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .sobre {
+        margin-top: 50px;
+        padding: 20px 70px;
+        margin-top: 30px;
+    }
+}
