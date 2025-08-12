@@ -1,24 +1,34 @@
-# 🍽️ Tô com Fome — Um site de receitas práticas e deliciosas!
-Projeto desenvolvido com HTML, CSS e Bootstrap, voltado para quem ama comer bem sem complicação! O “Tô com Fome” apresenta receitas clássicas como lasanha, strogonoff e macarrão à bolonhesa, com um layout responsivo, carrossel de imagens de dar água na boca, e uma pegada bem caseira.
+# 🍽️ Tô com Fome — Receitas práticas e deliciosas! 🍲💕
+
+Um projeto feito com muito carinho usando HTML, CSS e Bootstrap, perfeito para quem ama comer bem sem complicação!  
+O “Tô com Fome” traz receitas clássicas como lasanha, strogonoff e macarrão à bolonhesa, tudo num layout responsivo e com um carrossel de imagens de dar água na boca — aquele toque caseiro que a gente adora! 🥰
+
+---
 
 ## ✅ Funcionalidades
-Layout 100% responsivo (desktop, tablet e celular)
 
-Carrossel de receitas com imagens apetitosas
+- 📱 Layout 100% responsivo para desktop, tablet e celular  
+- 🍛 Carrossel de receitas com fotos apetitosas  
+- 🥘 Cards com pratos clássicos brasileiros  
+- 📖 Sessão “Sobre” contando a proposta do site  
+- 📞 Footer com contato e créditos
 
-Cards com receitas clássicas brasileiras
+---
 
-Sessão "Sobre" explicando a proposta do site
+## 🚀 Tecnologias Usadas
 
-Footer com contato e créditos
+- 🌐 HTML5  
+- 🎨 CSS3  
+- ✨ Bootstrap 5
 
-## 🚀 Tecnologias
-HTML5
+---
 
-CSS3
+## 💡 Objetivo do Projetinho
 
-Bootstrap 5
+Praticar e aplicar conhecimentos de front-end, criando uma página funcional, bonita e com identidade visual clara.  
+Perfeito para quem quer dominar grid, responsividade e os componentes do Bootstrap na prática! 🎯
 
-## 💡 Objetivo
-Treinar e aplicar conhecimentos de front-end, criando uma página atrativa, funcional e com identidade visual clara. Ideal pra quem quer praticar grid, responsividade e componentes Bootstrap na prática.
+---
 
+✨ Espero que seu apetite por código e comida aumente depois de visitar esse projeto! Bon appétit! 🍝💖
+https://to-com-fome-eta.vercel.app/
